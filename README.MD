@@ -7,7 +7,7 @@
   - [OKX V5 websocket SDK](#okx-v5-websocket-sdk)
 - [Java libraries](#java-libraries)
   - [紫微斗數排盤Library](#紫微斗數排盤library-1)
-- [Chrome extensions:](#chrome-extensions)
+- [Chrome extensions](#chrome-extensions)
   - [收工交通消息 (顯示香港交通消息)](#收工交通消息-顯示香港交通消息)
 
 ------
@@ -37,7 +37,7 @@
 
 ------
 
-# Chrome extensions:
+# Chrome extensions
 
 ## 收工交通消息 (顯示香港交通消息)
 - Project repo: https://github.com/airicyu/traffic-news-bot
