@@ -1,5 +1,7 @@
 <H1>My Projects</H1>
 
+- [Web3](#web3)
+  - [Solaforum (Forum built on Solana Blockchain)](#solaforum-forum-built-on-solana-blockchain)
 - [NodeJS libraries](#nodejs-libraries)
   - [Rameter (Load test tool)](#rameter-load-test-tool)
   - [紫微斗數排盤Library](#紫微斗數排盤library)
@@ -12,6 +14,14 @@
 
 ------
 
+# Web3
+
+## Solaforum (Forum built on Solana Blockchain)
+- Website: https://airicyu.github.io/solaforum-ui/
+- Project repo:
+  - Program: https://github.com/airicyu/solaforum
+  - UI: https://github.com/airicyu/solaforum-ui
+
 # NodeJS libraries
 
 ## Rameter (Load test tool)
@@ -20,7 +30,7 @@
 ## 紫微斗數排盤Library
 
 - Project repo: https://github.com/airicyu/fortel-ziweidoushu
-- 網站: https://airicyu.github.io/myfortel/
+- Website: https://airicyu.github.io/myfortel/
 
 ## OKX V5 API SDK
 - Project repo: https://github.com/airicyu/okx-v5-api
