@@ -6,8 +6,9 @@
       - [紫微斗數排盤網 (舊網站)](#紫微斗數排盤網-舊網站)
       - [排盤Library](#排盤library)
   - [Pig Pick Eat](#pig-pick-eat)
+      - [ios app store](#ios-app-store)
       - [Android App (Google Play)](#android-app-google-play)
-      - [網頁版](#網頁版)
+      - [網頁版 (browser local storage)](#網頁版-browser-local-storage)
 - [JS/NodeJS libraries](#jsnodejs-libraries)
     - [Rameter (Load test tool)](#rameter-load-test-tool)
     - [OKX V5 API SDK](#okx-v5-api-sdk)
@@ -40,15 +41,17 @@ https://www.myfortel.com/fortel/buildDestiny
 
 ## Pig Pick Eat
 
+#### ios app store
+
+https://apps.apple.com/app/id6463807800
+
 #### Android App (Google Play)
 
 https://play.google.com/store/apps/details?id=com.airic.pigpickeat
 
-#### 網頁版
+#### 網頁版 (browser local storage)
 
 https://airicyu.github.io/pig-pick-eat/
-
-(數據儲存在Browser的local storage)
 
 ------
 
