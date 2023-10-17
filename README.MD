@@ -9,7 +9,6 @@
       - [ios app store](#ios-app-store)
       - [Android App (Google Play)](#android-app-google-play)
 - [JS/NodeJS libraries](#jsnodejs-libraries)
-    - [Rameter (Load test tool)](#rameter-load-test-tool)
     - [OKLink API library](#oklink-api-library)
     - [OKX V5 API library](#okx-v5-api-library)
     - [OKX V5 websocket library](#okx-v5-websocket-library)
@@ -52,9 +51,6 @@ https://play.google.com/store/apps/details?id=com.airic.pigpickeat
 ------
 
 # JS/NodeJS libraries
-
-### Rameter (Load test tool)
-- https://github.com/airicyu/rameter
 
 ### OKLink API library
 - https://github.com/airicyu/oklink-api
