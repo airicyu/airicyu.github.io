@@ -1,20 +1,19 @@
 <H1>My portfolio</H1>
 
 - [Highlight Projects](#highlight-projects)
+  - [show-me-wallet](#show-me-wallet)
   - [Fortel (紫微斗數)](#fortel-紫微斗數)
-      - [紫微斗數排盤page (Github page)](#紫微斗數排盤page-github-page)
-      - [紫微斗數排盤網 (舊網站)](#紫微斗數排盤網-舊網站)
-      - [排盤Library](#排盤library)
-  - [Pig Pick Eat](#pig-pick-eat)
-      - [ios app store](#ios-app-store)
-      - [Android App (Google Play)](#android-app-google-play)
+    - [排盤網](#排盤網)
+    - [排盤Library](#排盤library)
 - [JS/NodeJS libraries](#jsnodejs-libraries)
     - [OKLink API library](#oklink-api-library)
     - [OKX V5 API library](#okx-v5-api-library)
     - [OKX V5 websocket library](#okx-v5-websocket-library)
     - [Analytic Hierarchy Process](#analytic-hierarchy-process)
-- [Web3 實驗product](#web3-實驗product)
-    - [Solaforum (Forum built on Solana Blockchain)](#solaforum-forum-built-on-solana-blockchain)
+- [Web3 stuff](#web3-stuff)
+    - [Solaforum (Forum built on Solana Blockchain, for self learning with Solana)](#solaforum-forum-built-on-solana-blockchain-for-self-learning-with-solana)
+- [mobile app](#mobile-app)
+  - [Pig Pick Eat (for self learning with flutter)](#pig-pick-eat-for-self-learning-with-flutter)
 - [Chrome extensions](#chrome-extensions)
     - [收工交通消息 (顯示香港交通消息)](#收工交通消息-顯示香港交通消息)
 
@@ -22,31 +21,21 @@
 
 # Highlight Projects
 
+## show-me-wallet
+
+web3展示wallet NFT app
+
+- play store: https://play.google.com/store/apps/details?id=com.airic.showmewallet
+
 ## Fortel (紫微斗數)
 
-#### 紫微斗數排盤page (Github page)
+### 排盤網
+- 排盤page (Github page): https://airicyu.github.io/myfortel/
+- 排盤網 (舊網站): https://www.myfortel.com/fortel/buildDestiny
 
-https://airicyu.github.io/myfortel/
-
-#### 紫微斗數排盤網 (舊網站)
-
-https://www.myfortel.com/fortel/buildDestiny
-
-#### 排盤Library
+### 排盤Library
 - Javascript: https://github.com/airicyu/fortel-ziweidoushu
 - Java: https://github.com/airicyu/Fortel
-
-------
-
-## Pig Pick Eat
-
-#### ios app store
-
-https://apps.apple.com/app/id6463807800
-
-#### Android App (Google Play)
-
-https://play.google.com/store/apps/details?id=com.airic.pigpickeat
 
 ------
 
@@ -66,13 +55,22 @@ https://play.google.com/store/apps/details?id=com.airic.pigpickeat
 
 ------
 
-# Web3 實驗product
+# Web3 stuff
 
-### Solaforum (Forum built on Solana Blockchain)
+### Solaforum (Forum built on Solana Blockchain, for self learning with Solana)
 - Website: https://airicyu.github.io/solaforum-ui/
 - repo:
   - Smartcontract: https://github.com/airicyu/solaforum
   - web UI: https://github.com/airicyu/solaforum-ui
+
+------
+
+# mobile app
+
+## Pig Pick Eat (for self learning with flutter)
+
+- ios app store: https://apps.apple.com/app/id6463807800
+- play store: https://play.google.com/store/apps/details?id=com.airic.pigpickeat
 
 ------
 
