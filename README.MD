@@ -29,11 +29,21 @@ Multiple wallet integrated asset view dashboard
 - repo: https://github.com/soldeck/soldeck-web
 - dashboard UI: https://soldeck.github.io/
 
+illustration:
+
+![soldeck-demo](https://github.com/airicyu/airicyu.github.io/blob/master/images/soldeck-demo.jpeg)
+
 ## show-me-wallet
 
 展示/查看/認證 Solana wallet NFT的app
 
 - play store: https://play.google.com/store/apps/details?id=com.airic.showmewallet
+
+illustration:
+
+![showmewallet-demo1](https://github.com/airicyu/airicyu.github.io/blob/master/images/showmewallet-demo1.webp)
+
+![showmewallet-demo2](https://github.com/airicyu/airicyu.github.io/blob/master/images/showmewallet-demo2.webp)
 
 ## Solaforum (experimental project)
 
@@ -43,6 +53,10 @@ A forum built on Solana Blockchain, for self learning with Solana
 - repo:
   - on chain program: https://github.com/airicyu/solaforum
   - web UI: https://github.com/airicyu/solaforum-ui
+
+illustration:
+
+![solaforum-demo](https://github.com/airicyu/airicyu.github.io/blob/master/images/solaforum-demo.png)
 
 ------
 
