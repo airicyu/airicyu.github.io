@@ -31,7 +31,7 @@ Multiple wallet integrated asset view dashboard
 
 illustration:
 
-<img src="./images/soldeck-demo.jpeg" width="1024">
+<img src="https://raw.githubusercontent.com/airicyu/airicyu.github.io/master/images/soldeck-demo.jpeg" width="1024">
 
 ## show-me-wallet
 
@@ -41,8 +41,8 @@ illustration:
 
 illustration:
 
-<img src="./images/showmewallet-demo1.webp" width="400">
-<img src="./images/showmewallet-demo2.webp" width="400">
+<img src="https://raw.githubusercontent.com/airicyu/airicyu.github.io/master/images/showmewallet-demo1.webp" width="400">
+<img src="https://raw.githubusercontent.com/airicyu/airicyu.github.io/master/images/showmewallet-demo2.webp" width="400">
 
 ## Solaforum (experimental project)
 
@@ -55,7 +55,7 @@ A forum built on Solana Blockchain, for self learning with Solana
 
 illustration:
 
-<img src="./images/solaforum-demo.png" width="1024">
+<img src="https://raw.githubusercontent.com/airicyu/airicyu.github.io/master/images/solaforum-demo.png" width="1024">
 
 ------
 
