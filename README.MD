@@ -14,7 +14,7 @@
     - [Analytic Hierarchy Process](#analytic-hierarchy-process)
     - [Rameter](#rameter)
 - [mobile app](#mobile-app)
-  - [Pig Pick Eat (for self learning with flutter)](#pig-pick-eat-for-self-learning-with-flutter)
+    - [Pig Pick Eat (for self learning with flutter)](#pig-pick-eat-for-self-learning-with-flutter)
 - [Chrome extensions](#chrome-extensions)
     - [收工交通消息 (顯示香港交通消息)](#收工交通消息-顯示香港交通消息)
 
@@ -102,7 +102,7 @@ load test tool
 
 # mobile app
 
-## Pig Pick Eat (for self learning with flutter)
+### Pig Pick Eat (for self learning with flutter)
 
 - ios app store: https://apps.apple.com/app/id6463807800
 - play store: https://play.google.com/store/apps/details?id=com.airic.pigpickeat
