@@ -1,17 +1,18 @@
 <H1>My portfolio</H1>
 
-- [Highlight Projects](#highlight-projects)
+- [Solana Web3](#solana-web3)
+  - [Soldeck](#soldeck)
   - [show-me-wallet](#show-me-wallet)
-  - [Fortel (紫微斗數)](#fortel-紫微斗數)
-    - [排盤網](#排盤網)
+  - [Solaforum (experimental project)](#solaforum-experimental-project)
+- [紫微斗數](#紫微斗數)
+    - [Fortel排盤網](#fortel排盤網)
     - [排盤Library](#排盤library)
-- [JS/NodeJS libraries](#jsnodejs-libraries)
+- [JS libraries](#js-libraries)
     - [OKLink API library](#oklink-api-library)
     - [OKX V5 API library](#okx-v5-api-library)
     - [OKX V5 websocket library](#okx-v5-websocket-library)
     - [Analytic Hierarchy Process](#analytic-hierarchy-process)
-- [Web3 stuff](#web3-stuff)
-    - [Solaforum (Forum built on Solana Blockchain, for self learning with Solana)](#solaforum-forum-built-on-solana-blockchain-for-self-learning-with-solana)
+    - [Rameter](#rameter)
 - [mobile app](#mobile-app)
   - [Pig Pick Eat (for self learning with flutter)](#pig-pick-eat-for-self-learning-with-flutter)
 - [Chrome extensions](#chrome-extensions)
@@ -19,49 +20,70 @@
 
 ------
 
-# Highlight Projects
+# Solana Web3
+
+## Soldeck
+
+Multiple wallet integrated asset view dashboard
+
+- repo: https://github.com/soldeck/soldeck-web
+- dashboard UI: https://soldeck.github.io/
 
 ## show-me-wallet
 
-web3展示wallet NFT app
+展示/查看/認證 Solana wallet NFT的app
 
 - play store: https://play.google.com/store/apps/details?id=com.airic.showmewallet
 
-## Fortel (紫微斗數)
+## Solaforum (experimental project)
 
-### 排盤網
+A forum built on Solana Blockchain, for self learning with Solana
+
+- website: https://airicyu.github.io/solaforum-ui/
+- repo:
+  - on chain program: https://github.com/airicyu/solaforum
+  - web UI: https://github.com/airicyu/solaforum-ui
+
+------
+
+# 紫微斗數
+
+### Fortel排盤網
 - 排盤page (Github page): https://airicyu.github.io/myfortel/
 - 排盤網 (舊網站): https://www.myfortel.com/fortel/buildDestiny
 
 ### 排盤Library
-- Javascript: https://github.com/airicyu/fortel-ziweidoushu
+- JS:
+  - repo: https://github.com/airicyu/fortel-ziweidoushu
+  - npm: https://www.npmjs.com/package/fortel-ziweidoushu
 - Java: https://github.com/airicyu/Fortel
 
 ------
 
-# JS/NodeJS libraries
+# JS libraries
 
 ### OKLink API library
-- https://github.com/airicyu/oklink-api
+- repo: https://github.com/airicyu/oklink-api
+- npm: https://www.npmjs.com/package/oklink-api
 
 ### OKX V5 API library
-- https://github.com/airicyu/okx-v5-api
+- repo: https://github.com/airicyu/okx-v5-api
+- npm: https://www.npmjs.com/package/okx-v5-api
 
 ### OKX V5 websocket library
-- https://github.com/airicyu/okx-v5-ws
+- repo: https://github.com/airicyu/okx-v5-ws
+- npm: https://www.npmjs.com/package/okx-v5-ws
 
 ### Analytic Hierarchy Process
-- https://github.com/airicyu/ahp
+- repo: https://github.com/airicyu/ahp
+- npm: https://www.npmjs.com/package/ahp
 
-------
+### Rameter
 
-# Web3 stuff
+load test tool
 
-### Solaforum (Forum built on Solana Blockchain, for self learning with Solana)
-- Website: https://airicyu.github.io/solaforum-ui/
-- repo:
-  - Smartcontract: https://github.com/airicyu/solaforum
-  - web UI: https://github.com/airicyu/solaforum-ui
+- repo: https://github.com/airicyu/rameter
+- npm: https://www.npmjs.com/package/rameter
 
 ------
 

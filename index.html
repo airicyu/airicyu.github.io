@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Highlight Projects</title>
-        <style>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Solana Web3</title>
+            <style>
 /* From extension vscode.github */
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
@@ -16,7 +16,7 @@
 }
 
 </style>
-        
+            
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
 <style>
@@ -37,33 +37,127 @@
     pointer-events: none;
 }
 </style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
         
-    </head>
-    <body class="vscode-body vscode-light">
-        <H1>My portfolio</H1>
+        </head>
+        <body class="vscode-body vscode-light">
+            <H1>My portfolio</H1>
 <ul>
-<li><a href="#highlight-projects">Highlight Projects</a>
+<li><a href="#solana-web3">Solana Web3</a>
 <ul>
+<li><a href="#soldeck">Soldeck</a></li>
 <li><a href="#show-me-wallet">show-me-wallet</a></li>
-<li><a href="#fortel-%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8">Fortel (紫微斗數)</a>
+<li><a href="#solaforum-experimental-project">Solaforum (experimental project)</a></li>
+</ul>
+</li>
+<li><a href="#%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B8">紫微斗數</a>
 <ul>
-<li><a href="#%E6%8E%92%E7%9B%A4%E7%B6%B2">排盤網</a></li>
+<li><a href="#fortel%E6%8E%92%E7%9B%A4%E7%B6%B2">Fortel排盤網</a></li>
 <li><a href="#%E6%8E%92%E7%9B%A4library">排盤Library</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li><a href="#jsnodejs-libraries">JS/NodeJS libraries</a>
+<li><a href="#js-libraries">JS libraries</a>
 <ul>
 <li><a href="#oklink-api-library">OKLink API library</a></li>
 <li><a href="#okx-v5-api-library">OKX V5 API library</a></li>
 <li><a href="#okx-v5-websocket-library">OKX V5 websocket library</a></li>
 <li><a href="#analytic-hierarchy-process">Analytic Hierarchy Process</a></li>
-</ul>
-</li>
-<li><a href="#web3-stuff">Web3 stuff</a>
-<ul>
-<li><a href="#solaforum-forum-built-on-solana-blockchain-for-self-learning-with-solana">Solaforum (Forum built on Solana Blockchain, for self learning with Solana)</a></li>
+<li><a href="#rameter">Rameter</a></li>
 </ul>
 </li>
 <li><a href="#mobile-app">mobile app</a>
@@ -78,52 +172,73 @@
 </li>
 </ul>
 <hr>
-<h1 id="highlight-projects">Highlight Projects</h1>
+<h1 id="solana-web3">Solana Web3</h1>
+<h2 id="soldeck">Soldeck</h2>
+<p>Multiple wallet integrated asset view dashboard</p>
+<ul>
+<li>repo: <a href="https://github.com/soldeck/soldeck-web">https://github.com/soldeck/soldeck-web</a></li>
+<li>dashboard UI: <a href="https://soldeck.github.io/">https://soldeck.github.io/</a></li>
+</ul>
 <h2 id="show-me-wallet">show-me-wallet</h2>
-<p>web3展示wallet NFT app</p>
+<p>展示/查看/認證 Solana wallet NFT的app</p>
 <ul>
 <li>play store: <a href="https://play.google.com/store/apps/details?id=com.airic.showmewallet">https://play.google.com/store/apps/details?id=com.airic.showmewallet</a></li>
 </ul>
-<h2 id="fortel-紫微斗數">Fortel (紫微斗數)</h2>
-<h3 id="排盤網">排盤網</h3>
+<h2 id="solaforum-experimental-project">Solaforum (experimental project)</h2>
+<p>A forum built on Solana Blockchain, for self learning with Solana</p>
+<ul>
+<li>website: <a href="https://airicyu.github.io/solaforum-ui/">https://airicyu.github.io/solaforum-ui/</a></li>
+<li>repo:
+<ul>
+<li>on chain program: <a href="https://github.com/airicyu/solaforum">https://github.com/airicyu/solaforum</a></li>
+<li>web UI: <a href="https://github.com/airicyu/solaforum-ui">https://github.com/airicyu/solaforum-ui</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="紫微斗數">紫微斗數</h1>
+<h3 id="fortel排盤網">Fortel排盤網</h3>
 <ul>
 <li>排盤page (Github page): <a href="https://airicyu.github.io/myfortel/">https://airicyu.github.io/myfortel/</a></li>
 <li>排盤網 (舊網站): <a href="https://www.myfortel.com/fortel/buildDestiny">https://www.myfortel.com/fortel/buildDestiny</a></li>
 </ul>
 <h3 id="排盤library">排盤Library</h3>
 <ul>
-<li>Javascript: <a href="https://github.com/airicyu/fortel-ziweidoushu">https://github.com/airicyu/fortel-ziweidoushu</a></li>
+<li>JS:
+<ul>
+<li>repo: <a href="https://github.com/airicyu/fortel-ziweidoushu">https://github.com/airicyu/fortel-ziweidoushu</a></li>
+<li>npm: <a href="https://www.npmjs.com/package/fortel-ziweidoushu">https://www.npmjs.com/package/fortel-ziweidoushu</a></li>
+</ul>
+</li>
 <li>Java: <a href="https://github.com/airicyu/Fortel">https://github.com/airicyu/Fortel</a></li>
 </ul>
 <hr>
-<h1 id="jsnodejs-libraries">JS/NodeJS libraries</h1>
+<h1 id="js-libraries">JS libraries</h1>
 <h3 id="oklink-api-library">OKLink API library</h3>
 <ul>
-<li><a href="https://github.com/airicyu/oklink-api">https://github.com/airicyu/oklink-api</a></li>
+<li>repo: <a href="https://github.com/airicyu/oklink-api">https://github.com/airicyu/oklink-api</a></li>
+<li>npm: <a href="https://www.npmjs.com/package/oklink-api">https://www.npmjs.com/package/oklink-api</a></li>
 </ul>
 <h3 id="okx-v5-api-library">OKX V5 API library</h3>
 <ul>
-<li><a href="https://github.com/airicyu/okx-v5-api">https://github.com/airicyu/okx-v5-api</a></li>
+<li>repo: <a href="https://github.com/airicyu/okx-v5-api">https://github.com/airicyu/okx-v5-api</a></li>
+<li>npm: <a href="https://www.npmjs.com/package/okx-v5-api">https://www.npmjs.com/package/okx-v5-api</a></li>
 </ul>
 <h3 id="okx-v5-websocket-library">OKX V5 websocket library</h3>
 <ul>
-<li><a href="https://github.com/airicyu/okx-v5-ws">https://github.com/airicyu/okx-v5-ws</a></li>
+<li>repo: <a href="https://github.com/airicyu/okx-v5-ws">https://github.com/airicyu/okx-v5-ws</a></li>
+<li>npm: <a href="https://www.npmjs.com/package/okx-v5-ws">https://www.npmjs.com/package/okx-v5-ws</a></li>
 </ul>
 <h3 id="analytic-hierarchy-process">Analytic Hierarchy Process</h3>
 <ul>
-<li><a href="https://github.com/airicyu/ahp">https://github.com/airicyu/ahp</a></li>
+<li>repo: <a href="https://github.com/airicyu/ahp">https://github.com/airicyu/ahp</a></li>
+<li>npm: <a href="https://www.npmjs.com/package/ahp">https://www.npmjs.com/package/ahp</a></li>
 </ul>
-<hr>
-<h1 id="web3-stuff">Web3 stuff</h1>
-<h3 id="solaforum-forum-built-on-solana-blockchain-for-self-learning-with-solana">Solaforum (Forum built on Solana Blockchain, for self learning with Solana)</h3>
+<h3 id="rameter">Rameter</h3>
+<p>load test tool</p>
 <ul>
-<li>Website: <a href="https://airicyu.github.io/solaforum-ui/">https://airicyu.github.io/solaforum-ui/</a></li>
-<li>repo:
-<ul>
-<li>Smartcontract: <a href="https://github.com/airicyu/solaforum">https://github.com/airicyu/solaforum</a></li>
-<li>web UI: <a href="https://github.com/airicyu/solaforum-ui">https://github.com/airicyu/solaforum-ui</a></li>
-</ul>
-</li>
+<li>repo: <a href="https://github.com/airicyu/rameter">https://github.com/airicyu/rameter</a></li>
+<li>npm: <a href="https://www.npmjs.com/package/rameter">https://www.npmjs.com/package/rameter</a></li>
 </ul>
 <hr>
 <h1 id="mobile-app">mobile app</h1>
@@ -139,7 +254,7 @@
 <li>Project repo: <a href="https://github.com/airicyu/traffic-news-bot">https://github.com/airicyu/traffic-news-bot</a></li>
 </ul>
 
-        
-        
-    </body>
-    </html>
+            
+            
+        </body>
+        </html>
